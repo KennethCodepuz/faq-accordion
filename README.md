@@ -1,12 +1,15 @@
-# React + Vite
+# FAQ Accordion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Project is to show my understanding of react and how to make it interactive. 
 
-Currently, two official plugins are available:
+## How does it work 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Well  you might have seen faq accordions, and it's like that. You clicked the + button on the side of the question and a explanation will
+ease in below the question. The button will turn from + to - and there can only be one answer that shows. 
+If you want the answer to another question, the current question with the answer out will automatically be close and the other one will show.
 
-## Expanding the ESLint configuration
+That's the end of the explanation for this project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Note
+
+This is my first time writing a README.md on a project and would like feedback on how to better structure my readme. Thank you.
