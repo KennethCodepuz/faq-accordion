@@ -1,11 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --text-lg: 56px;
+  --text-md: 32px;
+  --text-sm: 18px;
+  --text-xs: 16px;
+  --text-xxs: 14px;
+
+  --spacing-100: 8px;
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+
+  --leading-tight: 21px;
+  --leading-wide: 66px;
+  --leading-normal: 24px;
+
+  --color-purple-950: #301534;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-purple-600: #8B6990;
+  --color-purple-100: #F8EEFF;
+  --color-violet-600: #AD28EB;
+}
 
 :root {
   --background-mobile: url('/background-pattern-mobile.svg');
-  --background-desktop: url('/background-pattern-desktop.svg')
+  --background-desktop: url('/background-pattern-desktop.svg');
 }
 
 body {
   background-color: #f8eeff;
-  /* position: relative; */
+  font-family: 'Work Sans', sans-serif;
+  position: relative;
+}
+
+p.answer {
+  display: block;
+}
+
+hr {
+  border-top: 1.5px solid #8B6990;
+}
+
+button {
+  cursor: pointer;
 }
